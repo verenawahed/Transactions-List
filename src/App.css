@@ -1,0 +1,159 @@
+body {
+  
+    font-family: "Times New Roman", Georgia, serif;
+}
+
+.main-content {
+  display: flex;
+  
+  justify-content: center;
+  flex-direction: column;
+  background-color: #0c0c0d !important;
+  color: #7700ff;
+  align-items: center;
+}
+
+input {
+  border: 0px solid rgba(2, 0, 36, 0.239);
+  background-color: rgba(2, 0, 36, 0.108);
+  border-radius: 5px;
+  padding: 8px;
+  width: 80%;
+}
+
+button {
+  background-color: #020024;
+  border: 1px solid transparent;
+  padding: 5px;
+  padding-inline: 15px;
+  border-radius: 10px;
+  color: white;
+  font-size: 12px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: transparent;
+  border: 1px solid #4400ff;
+  color: #020024;
+}
+
+.button {
+  cursor: pointer;
+  transition: all 0.5s;
+  margin-bottom: -3px;
+}
+
+.button:hover {
+  transform: scale(1.3);
+}
+
+
+.App{
+  background-color: #160bed;
+}
+
+
+
+.details {
+ 
+  display: flex;
+  flex-direction: column;
+  padding-inline: 20px;
+  align-self: center; 
+  width: 82%;
+  margin-block: 30px;
+  text-align: center; 
+
+}
+h2{
+  color: #a600ff;
+}
+
+/* /////////////////////////////////////////sreach style /////////////////////////////////////////////////////////////// */
+
+.search-card {
+  background-color: rgb(193, 148, 238);
+  box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.1);
+  display: flex;
+  padding: 15px;
+  border-radius: 20px;
+  margin-block: 20px;
+}
+
+.search-card p {
+  font-size: 14px;
+}
+
+.search-card .card {
+  min-width: 50%;
+}
+
+/* /////////////////////////////////////////table style /////////////////////////////////////////////////////////////// */
+
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #f0f7f6;
+  margin-top: 20px;
+}
+
+.table-container .title {
+  font-size: 20px;
+}
+
+ .table th,
+.table td {
+  padding: 10px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.last-filed {
+  display: flex;
+  justify-content: center;
+  height: 30px;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////// */
+
+.empty-container {
+  background-color: white;
+  text-align: center;
+  margin-block: 20px;
+}
+
+/* /////////////////////////////// Media //////////////////////////////////////// */
+
+@media screen and (max-width: 1200px) {
+  
+
+  header {
+    width: 98%;
+    align-self: center;
+  }
+
+  .details {
+    width: 98%;
+    align-self: center;
+    justify-content: center;
+  }
+}
